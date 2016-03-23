@@ -99,7 +99,7 @@ class PrisonPearlManager implements Listener {
 				stack.setAmount(stack.getAmount()-1); // and reduce his stack of pearls by one
 				inv.setItem(stacknum, stack);
 			} else { // no empty slot?
-				dropStack = new ItemStack(Material.ENDER_PEARL, stack.getAmount()-1);
+				dropStack = new ItemStack(Material.DRAGON_EGG, stack.getAmount()-1);
 				pearlnum = stacknum; // then overwrite his stack of pearls
 			}
 		}
